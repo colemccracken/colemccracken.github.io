@@ -2,7 +2,7 @@
 /* Major elements */
 
 body {
-  font-family: 'Courier',monospace;
+  font-family: 'Times New Roman', Times, serif;
   color: #000000
   font-size: 100%; }
 
@@ -27,7 +27,7 @@ blockquote:before {
   vertical-align: -.4em; }
 
 h1, h2, h3, h4, p {
-  font-family: 'Courier',monospace;
+  font-family: 'Times New Roman', Times, serif;
   line-height: 1.2em;
   font-weight: 100;
   margin-top: 1em; }
@@ -88,7 +88,7 @@ a.anchor-wrap {
 
 /* Code snippets */
 pre, code, kbd, samp, .match-list {
-  font-family: 'Courier',monospace;
+  font-family: 'Times New Roman', Times, serif;
   border-radius: 10px;
   background-color: #F3F3F3;
   border: 1px solid #888; 
@@ -161,9 +161,8 @@ img.blank, img.icon {
   border: 0; }
 
 img.icon {
-  margin-top:-70px;
-  height: 150px;
-  width: 200px; }
+  height: 40px;
+  width: 40px; }
 
 /* Forms */
 input.fade:hover {
