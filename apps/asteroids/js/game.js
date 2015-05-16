@@ -153,13 +153,9 @@ function endGame() {
 }
 
 function loading(data, type){
-	var loadingDiv = document.getElementById("loading");
-	loadingDiv.textContent = "Loading " + type + ": " + Math.floor(data.loaded/data.total * 100) + "%"; 
-	if (data.loaded / data.total == 1) {
-		loadingDiv.style.display = 'none';
-		var c = document.getElementById("hello");
-		c.textContent = "Press enter to begin";
-	}
+
+	var c = document.getElementById("hello");
+	c.textContent = "Press enter to begin";
 }
 
 
@@ -546,7 +542,7 @@ function resetAsteroid(ast)
 	else if (rand == 2) material = asteroidMaterial2.clone();
 	else material = asteroidMaterial3.clone()
 
-	ast.material = material;
+		ast.material = material;
 	ast.isShot = false;
 	ast.velocity = asteroidVelocity;
 }
