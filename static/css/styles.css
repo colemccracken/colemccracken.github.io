@@ -65,7 +65,7 @@ a {
   color: #0000CC; }
   a.implicit, a.blank, a.blank:hover {
     color: inherit;
-    border-bottom: none; }
+    border-bottom: 1px solid #838383; }
   a:hover {
     color: #0000CC;
     border-bottom: 1px solid #0000CC;

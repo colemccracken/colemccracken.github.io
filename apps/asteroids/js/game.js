@@ -155,7 +155,7 @@ function endGame() {
 function loading(data, type){
 
 	var c = document.getElementById("hello");
-	c.textContent = "Press enter to begin";
+	c.textContent = "loading...";
 }
 
 
@@ -246,7 +246,8 @@ function setup() {
 		createScene();
 		draw();
 		isLoaded = true;
-
+		var c = document.getElementById("hello");
+		c.textContent = "Press enter to begin the game"
 	}
 
 	startSetup();
